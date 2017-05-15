@@ -12,6 +12,11 @@ h3 {
   font-family: 'Playfair-Display', 'Sans-Serif';
   font-weight: 300;
 }
+h4 {
+  font-family: 'Playfair-Display', 'Sans-Serif';
+  font-weight: 300;
+}
+
 a {
   text-decoration: none;
 }
@@ -48,8 +53,8 @@ img {
 /* ---- Navigation header ---- */
 .header-container {
   padding: 10px;
-  background: #363D47;
-  opacity: 0.9
+  background: black;
+  opacity: 0.9;
 }
 .name {
   margin: 0;
@@ -78,22 +83,27 @@ img {
   margin: 0 auto;
   width: 80%;
   max-width: 1150px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 /* ---- Banner ---- */
 .banner {
+  background: url(../images/cover.png) no-repeat center center fixed;
   height: 100vh;
-  text-align: center;
-  color: #fff;
-  background: #363D47;
   padding: 30.2em 0;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .banner p {
   font-size: 30px;
+  color: white;
 }
 .banner h2 {
   font-size: 3.5rem;
+  color: white;
 }
 .subtitle ul{
   justify-content: center;
@@ -141,17 +151,45 @@ img {
   text-align: center;
 }
 .devicons {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 .skills div p {
   font-size: 20px;
 }
 
 /* ---- Projects ---> */
-.projects-heading {
+.project-wrapper {
+  background: #363D47;
+  color: white;
+}
+.project-item {
+  justify-content: center;
+  padding: 35px;
+}
+.project-heading {
   font-size: 30px;
   text-align: center;
   padding: 30px;
+}
+.project-heading h3 span {
+  color: #FF5C5C;
+}
+.project-image {
+  padding-right: 50px;;
+}
+.project-text {
+  width: 25%;
+  flex-flow: column;
+}
+.project-text h4 {
+  font-size: 18px;
+}
+.project-link {
+  text-align: center;
+  border: 3px solid black;
+  display: inline-block;
+  padding: 20px 3px;
+  border-radius: 0;
 }
 /* =================================
   Extras
