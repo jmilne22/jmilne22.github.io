@@ -8,10 +8,12 @@ body {
   font-size: 14px;
   font-family: 'Karla', 'Sans Serif';
 }
+
 h3 {
   font-family: 'Playfair-Display', 'Sans-Serif';
   font-weight: 300;
 }
+
 h4 {
   font-family: 'Playfair-Display', 'Sans-Serif';
   font-weight: 300;
@@ -43,19 +45,25 @@ img {
   display: flex;
 }
 
+
 /* ---- Wrapper ---- */
+
 .wrapper {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+
+
 /* ---- Navigation header ---- */
+
 .header-container {
   padding: 10px;
   background: black;
   opacity: 0.9;
 }
+
 .name {
   margin: 0;
 }
@@ -71,9 +79,14 @@ img {
   color: white;
   text-decoration: none;
 }
+
 .main-nav li a {
   text-transform: uppercase;
   font-size: 18px;
+}
+
+.main-nav li a:hover {
+  color: #C28851;
 }
 .name a {
   color: white;
@@ -86,7 +99,9 @@ img {
   justify-content: center;
 }
 
+
 /* ---- Banner ---- */
+
 .banner {
   background: url(../images/cover.png) no-repeat center center fixed;
   height: 100vh;
@@ -97,27 +112,34 @@ img {
   -o-background-size: cover;
   background-size: cover;
 }
+
 .banner p {
   font-size: 30px;
   color: white;
 }
+
 .banner h2 {
   font-size: 3.5rem;
   color: white;
 }
-.subtitle ul{
+
+.subtitle ul {
   justify-content: center;
 }
 
+
 /* ---- About me ---- */
+
 .about-me-heading {
   text-align: center;
   font-size: 30px;
   padding: 30px;
 }
+
 .about-me-heading h3 span {
   color: #E84C3F;
 }
+
 .about-me-content {
   padding: 30px;
   justify-content: center;
@@ -129,10 +151,13 @@ img {
   flex-flow: column;
 }
 
+
 /* ---- Skills --- */
+
 .skills-wrapper {
   background: #F6F6F6;
 }
+
 .skills-heading {
   text-align: center;
   font-size: 30px;
@@ -146,44 +171,57 @@ img {
 .skills-heading h3 span {
   color: #23B4FF;
 }
+
 .skills div {
   padding: 60px;
   text-align: center;
 }
+
 .devicons {
   font-size: 4rem;
 }
+
 .skills div p {
   font-size: 20px;
 }
 
-/* ---- Projects ---> */
+
+/* ---- Projects --- */
+
 .project-wrapper {
   background: #363D47;
   color: white;
 }
+
 .project-item {
   justify-content: center;
   padding: 35px;
 }
+
 .project-heading {
   font-size: 30px;
   text-align: center;
   padding: 30px;
 }
+
 .project-heading h3 span {
   color: #FF5C5C;
 }
+
 .project-image {
-  padding-right: 50px;;
+  padding-right: 50px;
+  ;
 }
+
 .project-text {
   width: 25%;
   flex-flow: column;
 }
+
 .project-text h4 {
   font-size: 18px;
 }
+
 .project-link {
   text-align: center;
   border: 3px solid black;
@@ -191,30 +229,116 @@ img {
   padding: 20px 3px;
   border-radius: 0;
 }
+
+
+/* ---- Contact me ---- */
+
+.contact-wrapper {
+  background: #F8F8F8;
+}
+
+.contact-heading {
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.contact-content {
+  text-align: center;
+  font-size: 18px;
+}
+
+.contact-content a {
+  color: black;
+}
+
+.contact-content a:hover {
+  color: #25B4FF;
+}
+
+.social-icons {
+  padding: 30px;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-twitter:hover {
+  color: #25B4FF;
+}
+
+.fa-github {
+  color: white;
+}
+
+.fa-github:hover {
+  color: #25B4FF;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-instagram:hover {
+  color: #25B4FF;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.fa-linkedin:hover {
+  color: #25B4FF;
+}
+
+
 /* =================================
   Extras
 ==================================== */
 
+
 /* animated cursor css */
 
-.typed-cursor{
-	opacity: 1;
-	-webkit-animation: blink 0.7s infinite;
-	-moz-animation: blink 0.7s infinite;
-	animation: blink 0.7s infinite;
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
 }
-@keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-@-webkit-keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-@-moz-keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
