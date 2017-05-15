@@ -61,7 +61,11 @@ img {
 .header-container {
   padding: 10px;
   background: black;
-  opacity: 0.9;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 .name {
@@ -86,6 +90,7 @@ img {
 }
 
 .main-nav li a:hover {
+  border-bottom: 0.1px solid white;
   color: #C28851;
 }
 .name a {
@@ -138,6 +143,7 @@ img {
 
 .about-me-heading h3 span {
   color: #E84C3F;
+  border-bottom: 0.1px solid black;
 }
 
 .about-me-content {
@@ -170,6 +176,7 @@ img {
 
 .skills-heading h3 span {
   color: #23B4FF;
+  border-bottom: 0.1px solid black;
 }
 
 .skills div {
@@ -206,11 +213,14 @@ img {
 
 .project-heading h3 span {
   color: #FF5C5C;
+  border-bottom: 0.1px solid white;
 }
 
 .project-image {
   padding-right: 50px;
-  ;
+}
+.project-image:hover {
+  opacity: 0.3;
 }
 
 .project-text {
@@ -342,3 +352,7 @@ img {
     opacity: 1;
   }
 }
+
+/* =================================
+  Media Queries
+==================================== */
