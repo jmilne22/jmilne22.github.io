@@ -397,6 +397,14 @@ img {
     padding: 17px;
   }
 
+  .skills div p {
+    font-size: 14px;
+  }
+
+  .devicons {
+    font-size: 50px;
+  }
+
   .project-text {
     width: 100%;
   }
