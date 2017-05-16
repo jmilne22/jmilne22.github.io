@@ -409,4 +409,8 @@ img {
     padding-right: 0px;
     margin: 0 auto;
   }
+
+  .contact-content {
+    font-size: 16px;
+  }
 }
