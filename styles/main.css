@@ -367,7 +367,7 @@ img {
 }
 @media (max-width: 500px) {
   .main-nav {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 
   .name, .main-nav a {
@@ -375,7 +375,7 @@ img {
   }
 
   .main-nav li a {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .about-me-content {
