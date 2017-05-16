@@ -356,3 +356,57 @@ img {
 /* =================================
   Media Queries
 ==================================== */
+@media (max-width: 800px) {
+  .about-me-text {
+    width: 50%;
+  }
+
+  .project-text {
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .main-nav {
+    flex-wrap: wrap;
+  }
+
+  .name, .main-nav a {
+    padding: 6px 7px;
+  }
+
+  .main-nav li a {
+    font-size: 12px;
+  }
+
+  .about-me-content {
+    flex-flow: column;
+  }
+
+  .about-me-photo {
+    margin: 0 auto;
+  }
+  .photo p {
+    text-align: center;
+  }
+
+  .about-me-text {
+    width: 100%;
+  }
+
+  .skills div {
+    padding: 17px;
+  }
+
+  .project-text {
+    width: 100%;
+  }
+
+  .project-item {
+    flex-flow: column;
+  }
+
+  .project-image {
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+}
